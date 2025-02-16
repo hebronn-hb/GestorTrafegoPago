@@ -1,0 +1,12 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#E9ECEF"/>
+  <path d="M100 500L200 400L300 450L400 350L500 400L600 300L700 350" stroke="#007BFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="100" cy="500" r="5" fill="#007BFF"/>
+  <circle cx="200" cy="400" r="5" fill="#007BFF"/>
+  <circle cx="300" cy="450" r="5" fill="#007BFF"/>
+  <circle cx="400" cy="350" r="5" fill="#007BFF"/>
+  <circle cx="500" cy="400" r="5" fill="#007BFF"/>
+  <circle cx="600" cy="300" r="5" fill="#007BFF"/>
+  <circle cx="700" cy="350" r="5" fill="#007BFF"/>
+  <text x="350" y="100" font-size="40" fill="#333" text-anchor="middle">Tráfego em Ascensão</text>
+</svg>

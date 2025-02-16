@@ -1,0 +1,312 @@
+/* Estilos Globais */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu li:first-child {
+  margin-left: 0;
+}
+
+.menu li a {
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+  color: #007bff;
+}
+
+.social-icons a {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+/* Hero Section */
+#hero {
+  background-image: url('papeldeparede.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+/* Sobre */
+#sobre {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.sobre-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sobre-texto {
+  max-width: 600px;
+  text-align: left;
+}
+
+.sobre-texto p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.sobre-imagem img {
+  max-width: 400px;
+  height: auto;
+}
+
+/* Serviços */
+#servicos {
+  background-color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.servicos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.servico {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.servico i {
+  font-size: 40px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.servico h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.servico p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Cases de Sucesso */
+#cases {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.cases-slider {
+  display: flex;
+  overflow-x: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.case {
+  flex: 0 0 300px;
+  margin-right: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: left;
+}
+
+.case img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.case h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.case p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Contato */
+#contato {
+  background-color: #e9ecef;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.contato-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contato-form input,
+.contato-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contato-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contato-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* WhatsApp Icon */
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 24px;
+  text-decoration: none;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-icon:hover {
+  background-color: #128c7e;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .sobre-content {
+    flex-direction: column;
+  }
+
+  .sobre-texto,
+  .sobre-imagem {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .sobre-imagem img {
+    max-width: 80%;
+  }
+}

@@ -1,0 +1,8 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="600" fill="#E9ECEF"/>
+<circle cx="200" cy="300" r="80" fill="#007BFF"/>
+<circle cx="600" cy="300" r="80" fill="#28A745"/>
+<text x="200" y="310" font-size="60" fill="white" text-anchor="middle">A</text>
+<text x="600" y="310" font-size="60" fill="white" text-anchor="middle">B</text>
+<text x="400" y="100" font-size="40" fill="#333" text-anchor="middle">Nossa Equipe</text>
+</svg>
